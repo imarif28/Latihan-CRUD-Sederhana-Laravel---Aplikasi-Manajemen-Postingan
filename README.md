@@ -1,66 +1,116 @@
-<<<<<<< HEAD
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🚀 CRUD Sederhana Laravel - Aplikasi Manajemen Postingan
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Selamat datang di proyek latihan CRUD (Create, Read, Update, Delete) sederhana yang dibangun menggunakan Laravel. Proyek ini merupakan aplikasi web dasar untuk manajemen postingan blog, lengkap dengan sistem otentikasi pengguna.
 
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-=======
-# Latihan-CRUD-Sederhana-Laravel---Aplikasi-Manajemen-Postingan
 Proyek ini dibuat sebagai bagian dari proses belajar fundamental Laravel, mencakup konsep-konsep inti seperti Routing, Controller, Model, View (Blade), Eloquent, Middleware, dan Validasi.
->>>>>>> 1736cc6657c978494ed63e83b49bf80c997c3d8e
+
+---
+
+## ✨ Fitur Utama
+
+-   **Otentikasi Pengguna:**
+    -   Registrasi Akun Baru
+    -   Login Pengguna
+-   **Manajemen Postingan (CRUD):**
+    -   Menampilkan semua postingan dalam tabel yang interaktif.
+    -   Menambah postingan baru melalui form.
+    -   Mengedit postingan yang sudah ada.
+    -   Menghapus postingan.
+-   **Rute Terlindungi:** Halaman manajemen postingan hanya bisa diakses oleh pengguna yang sudah login.
+-   **Rich Text Editor:** Menggunakan CKEditor untuk input konten agar mendukung formatting teks.
+-   **Tabel Interaktif:** Menggunakan DataTables untuk fitur pencarian, sorting, dan paginasi pada tabel postingan.
+-   **Notifikasi & Validasi:**
+    -   Pesan notifikasi sukses setelah berhasil menambah, mengedit, atau menghapus data.
+    -   Pesan error validasi yang jelas jika input form tidak sesuai aturan.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+-   **Backend:** PHP, Laravel Framework
+-   **Frontend:** HTML, Bootstrap 4, JavaScript
+-   **Database:** MySQL
+-   **Library JavaScript:**
+    -   jQuery
+    -   DataTables (untuk tabel)
+    -   SweetAlert2 (untuk notifikasi AJAX di form login/register)
+    -   CKEditor 4 (untuk text editor)
+
+---
+
+## 📋 Panduan Instalasi & Penggunaan
+
+Berikut adalah langkah-langkah untuk menjalankan proyek ini di lingkungan lokal Anda.
+
+### Prasyarat
+
+-   PHP (versi 8.1+)
+-   Composer
+-   Node.js & NPM
+-   Web Server Lokal (XAMPP, Laragon, dll.)
+-   Database (MySQL/MariaDB)
+
+### Langkah-langkah
+
+1.  **Clone Repository**
+    ```bash
+    git clone [URL_REPOSITORY_ANDA]
+    cd [NAMA_FOLDER_PROYEK]
+    ```
+
+2.  **Install Dependensi**
+    Pasang semua dependensi PHP yang dibutuhkan dengan Composer.
+    ```bash
+    composer install
+    ```
+
+3.  **Buat File Environment**
+    Salin file `.env.example` menjadi `.env`.
+    ```bash
+    copy .env.example .env
+    ```
+    *Jika Anda menggunakan Linux/Mac, gunakan `cp .env.example .env`*
+
+4.  **Generate Application Key**
+    Buat kunci enkripsi unik untuk aplikasi Anda.
+    ```bash
+    php artisan key:generate
+    ```
+
+5.  **Konfigurasi Database**
+    -   Buat sebuah database baru di phpMyAdmin atau tool sejenis (misalnya, beri nama `db_latihan_crud`).
+    -   Buka file `.env` dan sesuaikan pengaturan database Anda:
+        ```env
+        DB_CONNECTION=mysql
+        DB_HOST=127.0.0.1
+        DB_PORT=3306
+        DB_DATABASE=db_latihan_crud
+        DB_USERNAME=root
+        DB_PASSWORD=
+        ```
+
+6.  **Jalankan Migrasi**
+    Buat semua tabel yang dibutuhkan di database Anda.
+    ```bash
+    php artisan migrate
+    ```
+
+7.  **Jalankan Server Lokal**
+    ```bash
+    php artisan serve
+    ```
+
+8.  **Selesai!**
+    Buka browser Anda dan akses `http://127.0.0.1:8000`. Anda bisa mulai dengan membuat akun baru melalui halaman registrasi.
+
+---
+
+### Screenshot (Contoh)
+
+Anda bisa menambahkan screenshot aplikasi Anda di sini untuk membuat README lebih menarik.
+
+*Screenshot Halaman Login*
+![Login](https://i.imgur.com/your-login-image.png)
+
+*Screenshot Dashboard Postingan*
+![Dashboard](https://i.imgur.com/your-dashboard-image.png)
