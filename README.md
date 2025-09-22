@@ -113,4 +113,4 @@ Anda bisa menambahkan screenshot aplikasi Anda di sini untuk membuat README lebi
 ![Login](https://i.imgur.com/your-login-image.png)
 
 *Screenshot Dashboard Postingan*
-![Dashboard](https://i.imgur.com/your-dashboard-image.png)
+![Dashboard](image.png)
