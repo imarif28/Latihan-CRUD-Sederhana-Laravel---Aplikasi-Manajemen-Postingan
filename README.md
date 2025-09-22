@@ -110,7 +110,7 @@ Berikut adalah langkah-langkah untuk menjalankan proyek ini di lingkungan lokal 
 Anda bisa menambahkan screenshot aplikasi Anda di sini untuk membuat README lebih menarik.
 
 *Screenshot Halaman Login*
-![Login](https://i.imgur.com/your-login-image.png)
+![Login](login.png)
 
 *Screenshot Dashboard Postingan*
 ![Dashboard](image.png)
